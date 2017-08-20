@@ -21,6 +21,9 @@ module.exports = {
     difficulty:{
       type:'integer',
       required:true
+    },
+    tags:{
+      type:'json'
     }
   }
 };

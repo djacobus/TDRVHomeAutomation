@@ -10,7 +10,17 @@ module.exports = {
     schemaName: 'recipe'
   },
   attributes: {
-
+    name:{
+      type:'string',
+      required:true
+    },
+    measurement:{
+      type:'integer',
+      required:true
+    },
+    brand:{
+      type:'string'
+    }
   }
 };
 
