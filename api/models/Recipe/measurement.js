@@ -6,7 +6,9 @@
  */
 
 module.exports = {
-
+  meta: {
+    schemaName: 'recipe'
+  },
   attributes: {
 
   }

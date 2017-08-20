@@ -6,9 +6,22 @@
  */
 
 module.exports = {
-
+  meta: {
+    schemaName: 'recipe'
+  },
   attributes: {
-
+    title:{
+      type:'string',
+      required:true
+    },
+    directions:{
+      type:'string',
+      required:true
+    },
+    difficulty:{
+      type:'integer',
+      required:true
+    }
   }
 };
 
