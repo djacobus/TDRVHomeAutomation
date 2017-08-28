@@ -24,6 +24,21 @@ module.exports.routes = {
   'recipe/recipe': {
     model: 'recipe'
   },
+  'recipe/category': {
+    model: 'category'
+  },
+  'recipe/difficulty': {
+    model: 'difficulty'
+  },
+  'recipe/ingredients': {
+    model: 'ingredients'
+  },
+  'recipe/inventory': {
+    model: 'inventory'
+  },
+  'recipe/measurement': {
+    model: 'measurement'
+  },
   /***************************************************************************
   *                                                                          *
   * Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *
